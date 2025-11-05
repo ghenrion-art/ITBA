@@ -19,9 +19,6 @@ import time
 import subprocess
 import os
 
-
-
-
 def entrenar_modelo_iris():
 
     mlflow.set_experiment("clasificacion_iris_detallada")
